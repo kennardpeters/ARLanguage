@@ -1,0 +1,10 @@
+# Account 1 (Personal) - the default config
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+# Account 2 (ART) - the config we are adding
+Host github-art
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_art
